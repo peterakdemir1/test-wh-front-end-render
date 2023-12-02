@@ -76,8 +76,11 @@
         border: 2px #dedede;
         border-style: groove;
         position: relative;
-        margin: 0;
         text-align: center;
+        background-color: white;
+        padding: 0.5rem 1rem;
+        display: inline-block; 
+        margin: 0 10px; 
     }
     nav ul li::before {
         content: "";
