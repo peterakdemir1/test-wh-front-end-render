@@ -66,10 +66,6 @@
     <slot />
 </main>
 <style>
-    @import '/public/global.css';
-
-    @import url('https://fonts.googleapis.com/css?family=Varela Round');
-
     nav ul li {
         font-family: 'Varela Round';
         border-radius: 0px;
@@ -97,6 +93,10 @@
     nav ul li:hover::before {
         opacity: 1;
     }
+    
+    @import '/public/global.css';
+
+    @import url('https://fonts.googleapis.com/css?family=Varela Round');
 
     #nav-bar-link1, #nav-bar-link2, #nav-bar-link3 {
         list-style-position: relative;

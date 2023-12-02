@@ -68,6 +68,13 @@ nav ul {
     padding: 0;
 }
 
+nav ul li {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
 #header {
     display: flex;
     flex-direction: column; 
