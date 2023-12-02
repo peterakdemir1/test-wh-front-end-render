@@ -68,11 +68,39 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+/* nav ul li {
     background-color: white;
     padding: 0.5rem 1rem;
     display: inline-block; 
     margin: 0 10px; 
+} */
+
+nav ul li {
+	font-family: 'Varela Round';
+	border-radius: 0px;
+	border: 2px #dedede;
+	border-style: groove;
+	position: relative;
+	text-align: center;
+	background-color: white;
+	padding: 0.5rem 1rem;
+	display: inline-block; 
+	margin: 0 10px; 
+}
+nav ul li::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 4px;
+	background-color: green; 
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+nav ul li:hover::before {
+	opacity: 1;
 }
 
 #header {
